@@ -62,7 +62,6 @@ public class Triangle extends GeometricObject{
 	 */
 	@Override
 	public String toString(){
-		return "Sides: " + side1+", "+side2+", "+side3+"\nColor: "+this.getColor()+"\nFilled: "+this.isFilled();
+		return this.ToString();
 	}
-
 }

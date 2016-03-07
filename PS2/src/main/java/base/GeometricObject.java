@@ -43,8 +43,7 @@ public abstract class GeometricObject {
 	    return dateCreated;
 	  }
 
-	  @Override
-	  public String toString() {
+	  public String ToString() {
 	    return "created on " + dateCreated + "\ncolor: " + color +
 	      " and filled: " + filled;
 	  }

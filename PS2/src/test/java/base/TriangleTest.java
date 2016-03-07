@@ -38,4 +38,11 @@ public class TriangleTest {
 		assertTrue(T4.getArea() == 6);
 		assertTrue(T5.getArea() == Math.sqrt(3)/4);
 	}
+	@Test
+	public void testString(){
+		Triangle T6 = new Triangle();
+		T6.setColor("Green");
+		T6.setFilled(true);
+
+	}
 }
