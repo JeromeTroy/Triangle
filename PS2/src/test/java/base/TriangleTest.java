@@ -43,6 +43,7 @@ public class TriangleTest {
 		Triangle T6 = new Triangle();
 		T6.setColor("Green");
 		T6.setFilled(true);
-
+		String str = T6.toString();
+		assertEquals(str,T6.toString());
 	}
 }
